@@ -1,4 +1,4 @@
-package models;
+package main.java.todoapp.models;
 
 public class Todo {
     private Long id;

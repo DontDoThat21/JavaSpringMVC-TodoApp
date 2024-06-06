@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="Added remaining initial project dependency references.">
+    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="Added initial Todos Logic.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/todoapp/TodoAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/todos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/TodosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/TodosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/TodosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoapp/controllers/TodosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoapp/models/Todo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,6 +55,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
+    "Application.TodoAppApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -87,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717706116361</updated>
-      <workItem from="1717706117380" duration="2286000" />
+      <workItem from="1717706117380" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="Added IntelliJ IML project dependency references.">
       <option name="closed" value="true" />
@@ -129,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717707940057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added initial Todos Logic.">
+      <option name="closed" value="true" />
+      <created>1717708436026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717708436026</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +180,7 @@
     <MESSAGE value="Added Todo POJO model class for future use in TodosController." />
     <MESSAGE value="Added placeholder TodosController." />
     <MESSAGE value="Added remaining initial project dependency references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remaining initial project dependency references." />
+    <MESSAGE value="Added initial Todos Logic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial Todos Logic." />
   </component>
 </project>
