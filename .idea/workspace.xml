@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/TodosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Todo.java" afterDir="false" />
+    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="Added remaining initial project dependency references.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSpringMVC-TodoApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSpringMVC-TodoApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/TodosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/TodosController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +87,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717706116361</updated>
-      <workItem from="1717706117380" duration="1634000" />
+      <workItem from="1717706117380" duration="2286000" />
     </task>
+    <task id="LOCAL-00001" summary="Added IntelliJ IML project dependency references.">
+      <option name="closed" value="true" />
+      <created>1717707828071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717707828071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added default console outputs before delivering content of todos is implemented.">
+      <option name="closed" value="true" />
+      <created>1717707860706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717707860706</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Todo POJO model class for future use in TodosController.">
+      <option name="closed" value="true" />
+      <created>1717707899203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717707899203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added placeholder TodosController.">
+      <option name="closed" value="true" />
+      <created>1717707922022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717707922022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added remaining initial project dependency references.">
+      <option name="closed" value="true" />
+      <created>1717707940057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717707940057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +140,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -110,5 +160,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added IntelliJ IML project dependency references." />
+    <MESSAGE value="Added default console outputs before delivering content of todos is implemented." />
+    <MESSAGE value="Added Todo POJO model class for future use in TodosController." />
+    <MESSAGE value="Added placeholder TodosController." />
+    <MESSAGE value="Added remaining initial project dependency references." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added remaining initial project dependency references." />
   </component>
 </project>
