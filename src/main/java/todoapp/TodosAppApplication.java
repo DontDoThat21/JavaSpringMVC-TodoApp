@@ -1,13 +1,13 @@
 package main.java.todoapp;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class TodosAppApplication {
+
     public static void main(String[] args) {
-        MakeNoise();
+        SpringApplication.run(TodosAppApplication.class, args);
     }
 
-    public static void MakeNoise()
-    {
-        System.out.println("Hello world from todos application startup file!");
-        System.out.println("test");
-    }
 }

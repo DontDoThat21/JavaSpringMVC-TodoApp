@@ -1,6 +1,6 @@
-package main.java.todoapp.controllers;
+package todoapp.controllers;
 
-import main.java.todoapp.models.Todo;
+import todoapp.models.Todo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
