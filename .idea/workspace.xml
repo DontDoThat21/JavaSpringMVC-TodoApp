@@ -4,106 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="Moved Todo and TodosController again to follow Java standards.&#10;Added initial implementation for TodosAppApplication.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d803a35-67be-4f0b-ac35-2e30bebae948" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
-    </option>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DontDoThat21"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DontDoThat21/JavaSpringMVC-TodoApp.git",
-    "accountId": "b7775e38-c59b-448a-990d-06f6b2619019"
-  }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "associatedIndex": 2
 }]]></component>
-  <component name="ProjectId" id="2hWNwxOG5V0mSSElF4IUo9w1V59" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2hWZzAo3BwdTz5jBjazUNqL1m0v" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Application.TodoAppApplication.executor": "Run",
-    "Application.TodosAppApplication.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.TodosAppApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="TodosAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="JavaSpringMVC-TodoApp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.todoapp.TodosAppApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.todoapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="JavaSpringMvcTodosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="JavaSpringMVC-Todos.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tylor.todos.JavaSpringMVC_Todos.JavaSpringMvcTodosApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.TodosAppApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -116,152 +51,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="" />
-      <created>1717706116361</created>
+      <changelist id="7d803a35-67be-4f0b-ac35-2e30bebae948" name="Changes" comment="" />
+      <created>1717712055429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1717706116361</updated>
-      <workItem from="1717706117380" duration="5349000" />
+      <updated>1717712055429</updated>
+      <workItem from="1717712057167" duration="29000" />
     </task>
-    <task id="LOCAL-00001" summary="Added IntelliJ IML project dependency references.">
-      <option name="closed" value="true" />
-      <created>1717707828071</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717707828071</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added default console outputs before delivering content of todos is implemented.">
-      <option name="closed" value="true" />
-      <created>1717707860706</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717707860706</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added Todo POJO model class for future use in TodosController.">
-      <option name="closed" value="true" />
-      <created>1717707899203</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717707899203</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added placeholder TodosController.">
-      <option name="closed" value="true" />
-      <created>1717707922022</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717707922022</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added remaining initial project dependency references.">
-      <option name="closed" value="true" />
-      <created>1717707940057</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717707940057</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added initial Todos Logic.">
-      <option name="closed" value="true" />
-      <created>1717708436026</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717708436026</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Moved todos, and todoscontroller to proper Java standard namespaces/packages.&#10;Removed Main.java test class.&#10;Added workspace.xml references to new locations for files, and upcoming html/css and startup file commit in a few seconds.">
-      <option name="closed" value="true" />
-      <created>1717709181919</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1717709181919</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added todos html.&#10;Added TodosApp future startup/DI assistance file.&#10;Added style.css for todos table view html.&#10;Corrected references.">
-      <option name="closed" value="true" />
-      <created>1717709269849</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717709269849</updated>
-    </task>
-    <task id="LOCAL-00009" summary="I am using IntelliJ. Uploading my .idea files.">
-      <option name="closed" value="true" />
-      <created>1717709311957</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1717709311958</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Uploading my .idea files. I am using IntelliJ.">
-      <option name="closed" value="true" />
-      <created>1717709381568</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1717709381568</updated>
-    </task>
-    <task id="LOCAL-00011" summary="test commit">
-      <option name="closed" value="true" />
-      <created>1717709499974</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1717709499974</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Moved Todo and TodosController again to follow Java standards.&#10;Added initial implementation for TodosAppApplication.">
-      <option name="closed" value="true" />
-      <created>1717710841601</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1717710841601</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added IntelliJ IML project dependency references." />
-    <MESSAGE value="Added default console outputs before delivering content of todos is implemented." />
-    <MESSAGE value="Added Todo POJO model class for future use in TodosController." />
-    <MESSAGE value="Added placeholder TodosController." />
-    <MESSAGE value="Added remaining initial project dependency references." />
-    <MESSAGE value="Added initial Todos Logic." />
-    <MESSAGE value="Moved todos, and todoscontroller to proper Java standard namespaces/packages.&#10;Removed Main.java test class.&#10;Added workspace.xml references to new locations for files, and upcoming html/css and startup file commit in a few seconds." />
-    <MESSAGE value="Added todos html.&#10;Added TodosApp future startup/DI assistance file.&#10;Added style.css for todos table view html.&#10;Corrected references." />
-    <MESSAGE value="I am using IntelliJ. Uploading my .idea files." />
-    <MESSAGE value="Uploading my .idea files. I am using IntelliJ." />
-    <MESSAGE value="test commit" />
-    <MESSAGE value="Moved Todo and TodosController again to follow Java standards.&#10;Added initial implementation for TodosAppApplication." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved Todo and TodosController again to follow Java standards.&#10;Added initial implementation for TodosAppApplication." />
   </component>
 </project>
