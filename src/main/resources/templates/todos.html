@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Todos</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<h1>Todo List work in progress</h1>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Completed</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="todo : ${todos}">
+        <td th:text="${todo.id}">1</td>
+        <td th:text="${todo.title}">Sample Title</td>
+        <td th:text="${todo.description}">Sample Description</td>
+        <td th:text="${todo.completed ? 'Yes' : 'No'}">No</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
