@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="Moved todos, and todoscontroller to proper Java standard namespaces/packages.&#10;Removed Main.java test class.&#10;Added workspace.xml references to new locations for files, and upcoming html/css and startup file commit in a few seconds.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/todoapp/TodosAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/todos.html" afterDir="false" />
+    <list default="true" id="16f596f0-b104-45ab-bc82-2c88f0e5b781" name="Changes" comment="Uploading my .idea files. I am using IntelliJ.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/todoapp/TodosAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/todoapp/TodosAppApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -36,6 +35,10 @@
     "url": "https://github.com/DontDoThat21/JavaSpringMVC-TodoApp.git",
     "accountId": "b7775e38-c59b-448a-990d-06f6b2619019"
   }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -91,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717706116361</updated>
-      <workItem from="1717706117380" duration="3078000" />
+      <workItem from="1717706117380" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="Added IntelliJ IML project dependency references.">
       <option name="closed" value="true" />
@@ -149,7 +152,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717709181919</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added todos html.&#10;Added TodosApp future startup/DI assistance file.&#10;Added style.css for todos table view html.&#10;Corrected references.">
+      <option name="closed" value="true" />
+      <created>1717709269849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717709269849</updated>
+    </task>
+    <task id="LOCAL-00009" summary="I am using IntelliJ. Uploading my .idea files.">
+      <option name="closed" value="true" />
+      <created>1717709311957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717709311958</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Uploading my .idea files. I am using IntelliJ.">
+      <option name="closed" value="true" />
+      <created>1717709381568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717709381568</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +214,9 @@
     <MESSAGE value="Added remaining initial project dependency references." />
     <MESSAGE value="Added initial Todos Logic." />
     <MESSAGE value="Moved todos, and todoscontroller to proper Java standard namespaces/packages.&#10;Removed Main.java test class.&#10;Added workspace.xml references to new locations for files, and upcoming html/css and startup file commit in a few seconds." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved todos, and todoscontroller to proper Java standard namespaces/packages.&#10;Removed Main.java test class.&#10;Added workspace.xml references to new locations for files, and upcoming html/css and startup file commit in a few seconds." />
+    <MESSAGE value="Added todos html.&#10;Added TodosApp future startup/DI assistance file.&#10;Added style.css for todos table view html.&#10;Corrected references." />
+    <MESSAGE value="I am using IntelliJ. Uploading my .idea files." />
+    <MESSAGE value="Uploading my .idea files. I am using IntelliJ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading my .idea files. I am using IntelliJ." />
   </component>
 </project>

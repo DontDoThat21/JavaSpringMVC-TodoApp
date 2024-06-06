@@ -8,5 +8,6 @@ public class TodosAppApplication {
     public static void MakeNoise()
     {
         System.out.println("Hello world from todos application startup file!");
+        System.out.println("test");
     }
 }
