@@ -1,28 +1,86 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Todos</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Todo List</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
 </head>
 <body>
-<h1>Todo List work in progress</h1>
-<table>
-    <thead>
-    <tr>
-        <th>ID</th>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Completed</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="todo : ${todos}">
-        <td th:text="${todo.id}">1</td>
-        <td th:text="${todo.title}">Sample Title</td>
-        <td th:text="${todo.description}">Sample Description</td>
-        <td th:text="${todo.completed ? 'Yes' : 'No'}">No</td>
-    </tr>
-    </tbody>
-</table>
+<div class="container">
+    <h1>Todo List</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Completed</th>
+            <th>Actions</th>
+        </tr>
+        <tr th:each="todo : ${todos}">
+            <td th:text="${todo.id}"></td>
+            <td th:text="${todo.title}"></td>
+            <td th:text="${todo.description}"></td>
+            <td>
+                <!--<input type="checkbox" class="completed-checkbox" th:id="'complete-' + ${todo.id}" th:checked="${todo.completed}" data-todo-id="${todo.id}" /> -->
+                <input type="checkbox" id="complete-${todo.id}" th:checked="${todo.completed}" th:onclick="'toggleCompleted(\'' + ${todo.id} + '\', this.checked)'" />
+
+
+                <label th:for="'complete-' + ${todo.id}"></label>
+            </td>
+            <td>
+            <form th:action="@{/todos/delete}" method="post">
+                    <input type="hidden" name="id" th:value="${todo.id}" />
+                    <button type="submit" class="delete-button">Delete</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <h2>Add Todo</h2>
+    <form th:action="@{/todos/add}" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" />
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" />
+        <button type="submit">Add</button>
+    </form>
+</div>
+
+<script>
+    function toggleCompleted(todoId, isChecked) {
+        // Make an AJAX request to update the completion status of the todo
+        $.ajax({
+            type: 'POST',
+            url: '/todos/update-completed',
+            contentType: 'application/json',
+            data: JSON.stringify({ id: todoId, completed: isChecked }),
+            success: function(response) {
+                console.log('Completion status updated successfully');
+            },
+            error: function(xhr, status, error) {
+                console.error('Error updating completion status:', xhr.responseText);
+            }
+        });
+    }
+</script>
+<script>
+    $('#complete-${todo.id}').on('change', function () {
+        var todoId = $(this).data('todo-id');
+        var completed = $(this).prop('checked');
+
+        $.ajax({
+            type: 'POST',
+            url: '/todos/update-completed',
+            contentType: 'application/json',
+            data: JSON.stringify({id: todoId, completed: completed}),
+            success: function (response) {
+                console.log(response);
+            },
+            error: function (xhr, status, error) {
+                console.error(xhr.responseText);
+            }
+        });
+    });
+
+</script>
 </body>
 </html>

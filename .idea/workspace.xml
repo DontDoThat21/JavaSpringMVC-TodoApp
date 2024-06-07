@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d803a35-67be-4f0b-ac35-2e30bebae948" name="Changes" comment="Added defaults for Thymeleaf and Spring Boot that were missing with project creation.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/models/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/todos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/repositories/TodosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/models/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/models/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/todos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/todos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DontDoThat21"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DontDoThat21&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DontDoThat21/JavaSpringMVC-TodoApp.git",
-    "accountId": "b7775e38-c59b-448a-990d-06f6b2619019"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DontDoThat21/JavaSpringMVC-TodoApp.git&quot;,
+    &quot;accountId&quot;: &quot;b7775e38-c59b-448a-990d-06f6b2619019&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,10 +57,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build JavaSpringMVC-Todos.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.JavaSpringMvcTodosApplication.executor": "Debug",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,6 +115,10 @@
       <updated>1717712055429</updated>
       <workItem from="1717712057167" duration="29000" />
       <workItem from="1717712104089" duration="254000" />
+      <workItem from="1717715622367" duration="1144000" />
+      <workItem from="1717724848513" duration="949000" />
+      <workItem from="1717774012867" duration="1506000" />
+      <workItem from="1717776391005" duration="3368000" />
     </task>
     <task id="LOCAL-00001" summary="Added defaults for Thymeleaf and Spring Boot that were missing with project creation.">
       <option name="closed" value="true" />
@@ -109,5 +137,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added defaults for Thymeleaf and Spring Boot that were missing with project creation." />
     <option name="LAST_COMMIT_MESSAGE" value="Added defaults for Thymeleaf and Spring Boot that were missing with project creation." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java</url>
+          <line>28</line>
+          <properties class="com.tylor.todos.JavaSpringMVC_Todos.controllers.TodosController" method="addTodo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tylor/todos/JavaSpringMVC_Todos/controllers/TodosController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/todos.html</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
